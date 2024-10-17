@@ -1,3 +1,3 @@
 # Activitat_Transversal
-# Adrian Sevilla
+# Adrian Sevilla Medina
 # Jeiron Espinal
