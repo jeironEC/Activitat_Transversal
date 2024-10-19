@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Què en penses</title>   
+    </head>  
+    <body>
+        <h1>Què en penses?</h1>
+        <form action="que_en_penses_enviat.html">
+       
+        <fieldset>
+            <legend>Dades personals:</legend>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" autofocus required><br><br>
+            <label for="cognoms">Cognoms:</label>  
+            <input type="text" id="cognoms" name="cognoms" required><br><br>
+            <label for="mail">Mail:</label>   
+            <input type="email" id="mail" name="mail" required><br><br>
+            <label for="edat">Edat:</label>
+            <input type="number" id="edat" name="edat" style="width: 50px;" min="0" required>
+        </fieldset>
+            
+        <br><br>
+
+        <fieldset>
+            <legend>Sobre l'equip:</legend>
+            <p>A la temporada 2023/2024, qui creus que va ser el millor jugador?</p>
+            <input type="radio" id="vinicius" name="jugadorFavorito" checked required>
+            <label for="vinicius">Vinicius Jr.</label><br>
+            <input type="radio" id="bellingham" name="jugadorFavorito" required>
+            <label for="bellingham">Jude Bellingham</label><br>
+            <input type="radio" id="carvajal" name="jugadorFavorito" required>
+            <label for="carvajal">Dani Carvajal</label><br><br>
+
+            <label for="samarreta">Quantes samarretes del Reial Madrid t'has comprat al llarg de la teva vida</label><br><br>
+            <select id="samarreta" name="samarreta" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="mes2">Més de 2</option>
+            </select>
+
+            <p>Quin títol et faria més il·lusió que l'equip guanyés a l'acabar la temporada? Pots seleccionar més d'un si ho consideres oportú.</p>
+            <input type="checkbox" id="champions" name="titol" checked>
+            <label for="champions">Champions league</label><br>
+            <input type="checkbox" id="lliga" name="titol">
+            <label for="lliga">Lliga espanyola</label><br>
+            <input type="checkbox" id="copa" name="titol">
+            <label for="copa">Copa del Rei</label><br>
+            
+            <p>Per últim, quin missatge vols transmetre als jugadors? Els més originals els hi farem arribar!</p>
+            <label for="comentari" ></label>
+            <textarea id="comentari" name="comentari" placeholder="Escriu el teu missatge" rows="4" cols="70" required></textarea>
+        </fieldset>
+            <br>
+            <button type="submit">Enviar formulari</button>
+        </form>
+    </body>
+</html>
