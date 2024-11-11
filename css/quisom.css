@@ -1,0 +1,39 @@
+/* SOLUCIÓ AL CENTRAT DE L'ELEMENTS */
+/* #quisom {
+
+} */
+ 
+.enllacs-quisom {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.enllac-adrian, .enllac-jeiron {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: #000;
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+    transform: scale(0.9);
+}
+
+.enllac-adrian:hover, .enllac-jeiron:hover {
+    text-decoration: underline;
+    transform: scale(1);
+}
+
+.enllac-adrian img, .enllac-jeiron img {
+    height: 400px;
+}
+
+.enllac-adrian h3, .enllac-jeiron h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-quisom {
+    position: absolute;
+}
