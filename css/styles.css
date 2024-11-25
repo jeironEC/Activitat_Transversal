@@ -15,6 +15,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 header nav {
@@ -57,13 +58,12 @@ header nav ul li a:hover {
 }
 
 footer {
-    text-align: center;
-    background-color: #dddddd;
-    position: relative;
+    background-color: #ddd;
     bottom: 0;
-    left: 0;
+    padding: 15px;
+    position: relative;
+    text-align: center;
     width: 100%;
-    padding: 20px;
 }
 
 footer p {
