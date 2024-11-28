@@ -2,11 +2,8 @@
 * Duda de si dejar fondo todo de un mismo color, o la "caja" blanca tal cual está
 */
 body{
-    margin: 0;
-    padding: 0;
     color: black;
     line-height: 1.5;
-
 }
 
 section{
@@ -17,7 +14,6 @@ section{
 }
 
 h1{
-    margin: 0;
     font-weight: bold;
     color: #1d428a
 }
