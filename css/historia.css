@@ -1,0 +1,45 @@
+/* Duda sobre si tiene que haber h1 obligatorio
+* Duda sobre si poner color de títulos el del header, o al revés (esto también pasa en página palmares)
+* Duda sobre si cambiar el título de la pagina. En lugar de historia, poner "El Club" o... "Sobre el club".
+*/
+body{
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+}
+
+main{ 
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+section{
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px black(0,0,0,0.1);
+}
+
+h2{
+    color: #1d428a;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section p{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+
+
