@@ -1,5 +1,6 @@
 /* Duda sobre si poner el mismo color de título y de table que el del header.
 * Duda de si dejar fondo todo de un mismo color, o la "caja" blanca tal cual está
+* Duda de si hacerlo en 3 sections o en 1 sola
 */
 body{
     color: black;
@@ -13,7 +14,7 @@ section{
     background-color: white;
 }
 
-h1{
+h2{
     font-weight: bold;
     color: #1d428a
 }
