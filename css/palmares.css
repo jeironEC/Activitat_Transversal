@@ -1,0 +1,51 @@
+/* Duda sobre si poner el mismo color de título y de table que el del header.
+* Duda de si dejar fondo todo de un mismo color, o la "caja" blanca tal cual está
+*/
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    line-height: 1.5;
+
+}
+
+section{
+    padding: 15px 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+}
+
+h1{
+    margin: 0;
+    font-weight: bold;
+    color: #1d428a
+}
+
+p{
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+table thead{
+    background-color: #1d428a;
+    color: white;
+}
+
+table th, table td{
+    padding: 8px 10px;
+    border: 1px solid #ddd
+}
+
+table tbody tr:hover{
+    background-color: #e6e6e6;
+}
