@@ -1,37 +1,30 @@
-/* Duda sobre si poner el mismo color de título y de table que el del header.
-* Duda de si dejar fondo todo de un mismo color, o la "caja" blanca tal cual está
-* Duda de si hacerlo en 3 sections o en 1 sola
-* Duda sobre si debe haber un h1 obligatorio si he puesto h2?
-*/
-body{
-    color: black;
+main {
     line-height: 1.5;
 }
 
 section{
-    padding: 15px 20px;
+    background-color: white;
     margin: 10px auto;
     max-width: 800px;
-    background-color: white;
+    padding: 15px 20px;
 }
 
 h2{
+    color: #1d428a;
     font-weight: bold;
-    color: #1d428a
 }
 
-p{
-    margin: 10px 0;
+p {
     font-size: 16px;
-    line-height: 1.5;
+    margin: 10px 0;
 }
 
 table{
-    width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
     font-size: 14px;
+    margin: 20px 0;
     text-align: left;
+    width: 100%;
 }
 
 table thead{
@@ -40,8 +33,8 @@ table thead{
 }
 
 table th, table td{
+    border: 1px solid #ddd;
     padding: 8px 10px;
-    border: 1px solid #ddd
 }
 
 table tbody tr:hover{

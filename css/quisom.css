@@ -5,9 +5,9 @@
 .enllacs-quisom {
     align-items: center;
     display: flex;
+    height: 80vh;
     justify-content: space-evenly;
     width: 100%;
-    height: 80vh;
 }
 
 .enllac-adrian, .enllac-jeiron {
@@ -31,8 +31,8 @@
 
 .enllac-adrian h3, .enllac-jeiron h3 {
     font-size: 20px;
-    text-align: center;
     margin-top: 10px;
+    text-align: center;
 }
 
 .footer-quisom {
