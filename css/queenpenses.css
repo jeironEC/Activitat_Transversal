@@ -74,19 +74,19 @@ form .boto {
 }
 
 form button {
-    background-color: #2160e9;
+    background-color: #6b9aff;
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     margin: 20px;
     padding: 10px;
-    width: 40%;
+    width: 30%;
 }
 
 form button:hover {
-    background-color: #7098ec;
-    color: #000;
+    background-color: #2160e9;
+    color: #fff;
 }
