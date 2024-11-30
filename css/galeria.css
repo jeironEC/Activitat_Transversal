@@ -1,0 +1,25 @@
+.contenidor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+figure figcaption{
+    margin-top: 10px;
+}
