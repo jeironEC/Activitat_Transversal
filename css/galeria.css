@@ -1,27 +1,26 @@
-.contenidor{
+.contenidor {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(3,1fr);
     margin: auto;
+    padding: 20px;
 }
 
-figure img{
-    width: 100%;
-    height: 250px;
+figure img {
     border-radius: 9px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 270px;
+    width: 100%;
 }
 
-figure{
+figure {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
 }
 
-
-figure figcaption{
+figure figcaption {
     margin-top: 10px;
     width: 100%;
 }

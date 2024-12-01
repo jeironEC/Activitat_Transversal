@@ -1,0 +1,42 @@
+.seccio {
+    padding: 20px;
+}
+
+.linia_divisora {
+    background-color: #2160e9;
+    border-radius: 5px;
+    height: 2px;
+}
+
+.seccio .informacio, .seccio .palmares {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.seccio .paragrafs p {
+    margin: 10px;
+} 
+
+.seccio .jugadors_legendaris {
+    align-items: center;
+    display: flex;
+    gap: 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.seccio .jugadors_legendaris .jugador img {
+    height: 300px;
+    width: 300px;
+}
+
+.seccio .jugadors_legendaris .jugador h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.seccio .palmares p {
+    margin: 30px;
+}

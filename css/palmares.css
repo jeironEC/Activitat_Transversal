@@ -2,24 +2,24 @@ main {
     line-height: 1.5;
 }
 
-section{
+section {
     background-color: white;
     margin: 10px auto;
     max-width: 800px;
     padding: 15px 20px;
 }
 
-h2{
+.titolsNacionals h2 {
     color: #1d428a;
     font-weight: bold;
 }
 
-p {
+.titolsNacionals p {
     font-size: 16px;
     margin: 10px 0;
 }
 
-table{
+table {
     border-collapse: collapse;
     font-size: 14px;
     margin: 20px 0;
@@ -27,16 +27,16 @@ table{
     width: 100%;
 }
 
-table thead{
+table thead {
     background-color: #1d428a;
     color: white;
 }
 
-table th, table td{
+table th, table td {
     border: 1px solid #ddd;
     padding: 8px 10px;
 }
 
-table tbody tr:hover{
+table tbody tr:hover {
     background-color: #e6e6e6;
 }
