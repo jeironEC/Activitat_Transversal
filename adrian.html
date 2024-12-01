@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina personal</title>    
+<style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #302f2f;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1a1a1a;
+    bottom: 0;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main { 
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: #2e758e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+section img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+section.presentacio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+strong{
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: #1a1a1a;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+th {
+    background-color: #202021;
+    color: #fff;
+}
+
+td {
+    background-color: #e0e0e0;
+}
+
+
+.estudis table tr:hover td {
+    background-color: #7e7e7e;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+caption {
+    color: white;       
+    text-align: left;      
+    padding: 5px;       
+}
+
+.colspan{
+    text-align: center;
+}
+
+.rowspan{
+    vertical-align: middle;
+}
+
+a{
+    color: rgb(23, 23, 158);
+}
+</style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Adrián Sevilla Medina</h1>
+        <nav>
+            <ul>
+                <li><a href="#presentacio">Sobre mi</a></li>
+                <li><a href="#estudis">Estudis</a></li>
+                <li><a href="#projectes">Projectes</a></li>
+                <li><a href="#contacte">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section class="presentacio" id="presentacio">
+        <h2 style="text-align: center;">Sobre mi</h2>
+        <p>Soc l'Adrián Sevilla Medina, un estudiant a qui li encanta el món del desenvolupament web. Diuen, i estic d'acord, que aquest és un món on l'aprenentatge no té límits. Sempre n'hi ha alguna cosa nova per aprendre. I és tot just la fase en la qual em trobo: aprenent per a ser, en un futur, el millor desenvolupador web possible.</p>
+        <img src="img/adrian/los-beneficios-de-aprender-un-idioma.png" alt="Imatge d'un cervell entrenant-se per a ser més fort">
+    </section>
+
+    <section class="estudis" id="estudis">
+        <h2>Estudis</h2>
+        <p>La meva infància i adolescència, a nivells acadèmics van ser les pròpies d'un nen que acostumava a treure bones notes. Això, que en un primer moment es pot veure com una qualitat positiva, en el meu cas es va tornar en una negativa, ja que, sí, treia bones notes, i tot se'm donava més o menys bé, però... <strong >què m'agradava realment? No ho sabia.</strong></p>
+        <p>No es tractava de si era més o menys llest, o si era apte per a fer una determinada feina. Jo volia que, fes el que fes, m'agradés. I no sabia què m'agradava.
+        Per aquest motiu vaig acabar estudiant un Grau Superior d'Administració i Finances. No m'entusiasmava, però pensava que tindria moltes sortides i era tot el que m'importava.</p>
+        <p>A continuació tots els estudis els quals he estudiat al llarg de la meva vida:</p>
+
+        <table>
+            <caption>Historial acadèmic</caption>
+            <thead>
+                <tr>
+                    <th>Any</th>
+                    <th>Institut</th>
+                    <th>Estudis</th>
+                    <th>Duració</th>
+                    <th>Nota mitja</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-en curs</td>
+                    <td>ITIC BCN</td>
+                    <td>GS Desenvolupament d'Aplicacions Web</td>
+                    <td>2 anys</td>
+                    <td>(en curs)</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Cambridge School</td>
+                    <td>First Certificate in English B2</td>
+                    <td colspan="2" class="colspan">-</td>
+                </tr>
+                <tr>
+                    <td>2016-2018</td>
+                    <td>IES Carles Vallbona</td>
+                    <td>GS Administració i Finances</td>
+                    <td>2 anys</td>
+                    <td>8.6</td>
+                </tr>
+                <tr>
+                    <td>2014-2016</td>
+                    <td>Institut Antoni Cumella</td>
+                    <td>Batxillerat</td>
+                    <td>2 anys</td>
+                    <td>8.4</td>
+                </tr>
+                <tr>
+                    <td>2010-2014</td>
+                    <td>Educem</td>
+                    <td>ESO</td>
+                    <td>4 anys</td>
+                    <td>8.1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </section>
+    <section class="projectes" id="projectes">
+        <h2>Projectes</h2>
+        <p>Després d'estar uns quants anys treballant en el sector administratiu, <strong>no em sentia feliç amb el què feia.</strong> Un dia, tot mirant vídeos sobre informàtica per la xarxa, ja que la informàtica és, i era, un camp que m'agrada bastant, vaig arribar a veure uns vídeos de programació web. Em va encantar allò que vaig veure. </p>
+        <p>Això, tot junt amb el fet que no estava satisfet amb la meva situació laboral, em va dur a prendre una decisió: estudiar programació web. I ara, mentre estic escrivint aquestes línies, només puc dir que em sento molt content per la decisió que vaig prendre.</p> 
+        <p><strong>Ara sí estic fent allò que m'entusiasma.</strong></p>
+        <p>A continuació, tots els projectes que he fet durant el curs:</p>
+        <table class="projectesTaula">
+            <caption>Projectes realitzats</caption>
+            <thead>
+                <tr>
+                    <th>Nom del projecte</th>
+                    <th>Asignatura</th>
+                    <th>Descripció</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Introducció a l'HTML</td>
+                    <td rowspan="5" class="rowspan">Llenguatge de marques</td>
+                    <td>Projecte inicial, en el que feiem un "Hola món" per a veure com funcionava HTML</td>
+                </tr>
+                <tr>
+                    <td>Elements bàsics d'HTML</td>
+                    <td>Primer projecte HTML, en el que recreàvem l'estructura d'una pàgina web. En el meu cas, una de cuina.</td>
+                </tr>
+                <tr>
+                    <td>Taules + CSS</td>
+
+                    <td>Projecte amb el qual veiem com funcionen les taules i feiem l'horari de classe.</td>
+                </tr>
+                <tr>
+                    <td>Formulari</td>
+
+                    <td>En aquest projecte realitzàvem un formulari, que havia d'incloure tot tipus de camps. Aquest formulari, més endavant, s'inclou en l'Activitat Transversal.</td>
+                </tr>
+                <tr>
+                    <td>Activitat transversal</td>
+
+                    <td>Activitat que consistia a fer una web amb diverses pàgines sobre una temàtica en comú. Funcionava a mode de recopilatori de tot el vist fins al moment actual.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section class="contacte" id="contacte">
+        <h2>Contacte</h2>
+        <p>En cas de tenir algun dubte, o voler contactar amb mi, pots fer-ho <a href="mailto:2024_adrian.sevilla@iticbcn.cat">enviant-me un mail a aquesta adreça.</a>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Adrián Sevilla Medina. Tots els drets reservats.</p>
+    </footer>
+</main>
+</body>
+</html>
