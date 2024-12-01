@@ -9,12 +9,12 @@ section {
     padding: 15px 20px;
 }
 
-.titolsNacionals h2 {
+section h2 {
     color: #1d428a;
     font-weight: bold;
 }
 
-.titolsNacionals p {
+section p {
     font-size: 16px;
     margin: 10px 0;
 }
